@@ -90,3 +90,7 @@ body p:last-child {
 img:not([alt]) {
   border: 1px solid red;
 }
+
+#curiosidade-nofloat {
+  float: none;
+}

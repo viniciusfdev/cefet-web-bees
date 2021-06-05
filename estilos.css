@@ -5,12 +5,14 @@ html {
 body {
   margin: 0 10%;
   height: inherit;
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background: linear-gradient(
     0deg,
-    rgba(238, 238, 238, 1) 0%,
-    rgba(226, 250, 255, 1) 100%
+    rgba(158, 138, 236, 1) 0%,
+    rgba(196, 245, 255, 1) 100%
   );
-  font-size: 20px;
 }
 
 p {
@@ -58,4 +60,33 @@ p {
   background-color: rgba(0, 50, 255, 0.1);
   box-shadow: 4px 4px 4px #0003;
   padding: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-shadow: 1px 1px 1px #0003;
+}
+
+a:active {
+  text-shadow: none;
+}
+
+a:visited {
+  font-weight: bold;
+}
+
+a[href^="http"] {
+  background-color: white;
+}
+
+body p:last-child {
+  text-align: right;
+}
+
+img:not([alt]) {
+  border: 1px solid red;
 }

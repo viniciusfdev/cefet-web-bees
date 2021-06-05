@@ -53,3 +53,9 @@ p {
 .float-right {
   shape-outside: circle(50%);
 }
+
+#logo-container {
+  background-color: rgba(0, 50, 255, 0.1);
+  box-shadow: 4px 4px 4px #0003;
+  padding: 30px;
+}
